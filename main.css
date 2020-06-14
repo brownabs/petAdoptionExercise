@@ -42,6 +42,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+
 #animals {
   display: flex;
   flex-flow: row wrap;
@@ -61,6 +62,30 @@ footer {
    max-width: 300px;
    max-height: 175px;
  }
-#TypeOfPet { 
-  border: .5px solid grey;
+
+.button1 {
+background-color: lightskyblue;
+margin-left: 1mm;
+min-width: 47.13px;
+}
+
+.button {
+  background-color: lightyellow;
+  margin-left: 1mm;
+  min-width: 47.13px;
+}
+.button2 {
+  background-color: lightsalmon;
+  margin-left: 1mm;
+  min-width: 47.13px;
+}
+.button3 {
+  background-color: lightgreen;
+  margin-left: 1mm;
+  min-width: 47.13px;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
 }
