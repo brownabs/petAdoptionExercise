@@ -199,11 +199,11 @@ const buildAnimals = (animals) => {
   let domString = "";
   for (i = 0; i < animals.length; i++) {
     domString += `<div class="individualAnimalCard">`;
+    domString += `<h3>${animals[i].name}</h3>`;
     domString += `<img src=${animals[i].imageUrl} class="animalImage"></img>`;
-    domString += `<h7>Name: ${animals[i].name}</h7>`;
     domString += `<h7>Color: ${animals[i].color}</h7>`;
     domString += `<h7>Special Skill: ${animals[i].specialSkill}</h7>`;
-    domString += `<h7 id="TypeOfPet">${animals[i].TypeOfPet}</h7>`;
+    domString += `<h7 id="TypeOfPet">Type of Pet: ${animals[i].TypeOfPet}</h7>`;
     domString += `</div>`;
   }
   printToDom('animals', domString)
